@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+
+.tb-tongue{
+    transition: transform .2s;
+    transform: rotateX(0deg);
+    transform-origin: center;
+}
+.logo{
+    cursor: pointer;
+}
+
+.logo:hover .tb-tongue{
+    transform: rotateX(90deg);
+    transform-origin: 0 51px;
+}
+
+
